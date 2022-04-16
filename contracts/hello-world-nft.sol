@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.1;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
@@ -23,7 +23,7 @@ contract HelloNFT is ERC721URIStorage {
            _tokenIds.increment();
            uint256 newItemId = _tokenIds.current();
            _mint(msg.sender, newItemId);
-           _setTokenURI(newItemId, "https://jsonkeeper.com/b/JJJS");
+           _setTokenURI(newItemId, "https://jsonkeeper.com/b/P3E3");
            console.log("The NFT ID %s has been minted to %s", newItemId, msg.sender);
            return newItemId;
        }
