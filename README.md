@@ -13,3 +13,6 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+HelloNFT deployed to: 0x808B30dbA9598bb98474Bd12cf5262b047902e9B
+HelloNFT deployed to: 0xDa948673e920E704fE52ECA75DF12E0FBE6Fc731
